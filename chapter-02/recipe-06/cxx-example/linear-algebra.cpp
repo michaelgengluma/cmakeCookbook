@@ -16,6 +16,7 @@ int main() {
   int num_repetitions = 100;
 
   // generate two random vectors
+  std::srand(42);
   Eigen::VectorXd va = Eigen::VectorXd::Random(len);
   Eigen::VectorXd vb = Eigen::VectorXd::Random(len);
 
